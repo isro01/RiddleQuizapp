@@ -26,6 +26,7 @@ public class Ques extends AppCompatActivity {
             no_of_questions_answered+=1;
         }
         displayCounter(no_of_questions_answered);
+        Toast.makeText(view.getContext(),"Answer locked",Toast.LENGTH_SHORT).show();
     }
     public void two(View view) {
         EditText edittext = (EditText) findViewById(R.id.edittext2);
@@ -34,6 +35,7 @@ public class Ques extends AppCompatActivity {
             no_of_questions_answered += 1;
         }
         displayCounter(no_of_questions_answered);
+        Toast.makeText(view.getContext(),"Answer locked",Toast.LENGTH_SHORT).show();
     }
     public void three(View view) {
         EditText edittext = (EditText) findViewById(R.id.edittext3);
@@ -42,6 +44,7 @@ public class Ques extends AppCompatActivity {
             no_of_questions_answered += 1;
         }
         displayCounter(no_of_questions_answered);
+        Toast.makeText(view.getContext(),"Answer locked",Toast.LENGTH_SHORT).show();
     }
     public void four(View view) {
         EditText edittext = (EditText) findViewById(R.id.edittext4);
@@ -50,6 +53,7 @@ public class Ques extends AppCompatActivity {
             no_of_questions_answered += 1;
         }
         displayCounter(no_of_questions_answered);
+        Toast.makeText(view.getContext(),"Answer locked",Toast.LENGTH_SHORT).show();
     }
     public void  five(View view) {
         EditText edittext = (EditText) findViewById(R.id.edittext5);
@@ -58,6 +62,7 @@ public class Ques extends AppCompatActivity {
             no_of_questions_answered += 1;
         }
         displayCounter(no_of_questions_answered);
+        Toast.makeText(view.getContext(),"Answer locked",Toast.LENGTH_SHORT).show();
     }
     public void result(View view){
         String results = "You answered following number of questions correctly...:";
